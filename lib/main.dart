@@ -93,7 +93,6 @@ class _StoryPageState extends State<StoryPage> {
                         style: TextStyle(fontSize: 20.0),
                       ),
                       onPressed: () {
-                        //Choice 2 made by user.
                         setState(() {
                           storyBrain.nextStory(2);
                         });
